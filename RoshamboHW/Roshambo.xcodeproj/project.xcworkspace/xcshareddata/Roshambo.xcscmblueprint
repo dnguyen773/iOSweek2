@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "02C5CD5A3B020DA62DC9890908328F187A0495F7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "CCBD0D7A1DC7D1750F7613424B79FC081EFB72B0" : 0,
+    "02C5CD5A3B020DA62DC9890908328F187A0495F7" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B6AF47D9-AFCD-4E4A-BE63-D3E9952D7E1E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "CCBD0D7A1DC7D1750F7613424B79FC081EFB72B0" : "",
+    "02C5CD5A3B020DA62DC9890908328F187A0495F7" : "RoshamboHW\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Roshambo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Roshambo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/dnguyen773\/RoshamboHW.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "02C5CD5A3B020DA62DC9890908328F187A0495F7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/dnguyen773\/iOSweek2.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CCBD0D7A1DC7D1750F7613424B79FC081EFB72B0"
+    }
+  ]
+}

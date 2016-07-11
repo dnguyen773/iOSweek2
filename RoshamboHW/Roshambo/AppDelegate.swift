@@ -1,6 +1,8 @@
 //
 //  AppDelegate.swift
-
+//  Created by Danny Nguyen on 7/10/16.
+//  Copyright © 2016 Danny Nguyen. All rights reserved.
+//
 
 import UIKit
 

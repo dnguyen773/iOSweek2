@@ -1,8 +1,9 @@
 //
 //  ResultsViewController.swift
 //  Roshambo
+//  Created by Danny Nguyen on 7/10/16.
+//  Copyright © 2016 Danny Nguyen. All rights reserved.
 //
-
 import UIKit
 
 // The enum "Shape" represents a play or move
@@ -21,37 +22,31 @@ enum Shape: String {
 
 class ResultsViewController: UIViewController {
 
-    // MARK: -
-    // MARK: Outlets
 
     @IBOutlet private weak var resultImage: UIImageView!
     @IBOutlet private weak var resultLabel: UILabel!
 
-    // MARK: Shapes
-
-    // When the ResultsViewController is initialized a userChoice is passed in and an opponent's play is generated.
+  
+    // Once resultsViewController is initialized ,a userChoice is passed in and an opponent's play turn is generated
     var userChoice: Shape!
     private let opponentChoice: Shape = Shape.randomShape()
 
-    // MARK: -
-    // MARK: View Lifecycle
+   
 
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         displayResult()
     }
 
-    // MARK: -
-    // MARK: UI
 
-    // The displayResult method generates the image and message for the results of a match.
+
+    // The displayResult method generates the images and message for the results of a match.
     private func displayResult() {
-        // Ideally, most of this would be handled by a model.
+    
         var imageName: String
         var text: String
         let matchup = "\(userChoice.rawValue) vs. \(opponentChoice.rawValue)"
 
-        // Why is an exclamation point necessary? :)
         switch (userChoice!, opponentChoice) {
         case let (user, opponent) where user == opponent:
             text = "\(matchup): You are BOTH LOSERS!"
