@@ -24,7 +24,7 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+    //function that enables a slider to change color of view
     @IBAction func changeColor(sender: AnyObject){
         let r: CGFloat = CGFloat(self.redSlider.value)
         let b: CGFloat = CGFloat(self.blueSlider.value)
